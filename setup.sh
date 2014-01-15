@@ -46,3 +46,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# PEM: Initialize git username and email for commits
+git config --global user.name "paul1453"
+git config --global user.email "hello@riosunrise.com"
